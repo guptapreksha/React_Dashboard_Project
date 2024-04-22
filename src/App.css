@@ -1,0 +1,105 @@
+ /* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */ 
+
+.sidebar{
+  width: 200px;
+  height: 900px;
+  background-color: black;
+  color: black;
+
+}
+.main-body{
+ height: 500px;
+  background-color: aliceblue;
+}
+.navbar{
+  height: 60px;
+  background-color: beige;
+  color:black;
+}
+.app{
+  display: flex;
+  height: 100vh;
+}
+.footer{
+  position:fixed;
+  bottom:0;
+  left: 0;
+  /* text-align:center; */
+  display:block;  
+  width:100%;
+  height: 50px;
+  /* padding: 20px; */
+  
+}
+.card-light-blue {
+  background-color: rgb(180, 206, 254);
+}
+.dashMain{
+  padding: 22px;
+}
+.solana{
+  padding: 20px;
+}
+.settingStyle{
+  width: 50%;
+}
+.addtweetscon{
+  width: 50%;
+}
+.dashboardCon{
+  background-color: white;
+  height: 300px;
+  width: 100%;
+}
+.dashboardLayout{
+  display: flex;
+
+}
+.total-tweets{
+  padding: 10px;
+  margin-right: 10px;
+}
+.total-comments{
+  padding: 10px;
+}
